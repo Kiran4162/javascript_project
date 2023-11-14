@@ -1,0 +1,35 @@
+body{
+    background: rgb(1,133,255);
+background: linear-gradient(90deg, rgb(120, 185, 247) 0%, rgb(157, 161, 236) 35%, rgba(179,176,246,0.4663573085846868) 100%);
+}
+.col-md-5{
+    margin-top: 150px !important;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-weight: bolder !important;
+    margin: 20px !important;
+}
+button{
+    margin-left: 10px !important;
+    height: 40px;
+    margin-bottom: 4px !important;
+}
+input{
+    display: inline !important;
+    border: 2px solid black !important;
+    width: 85% !important;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+    width: 70%;
+    margin: 10px;
+}
+i{
+    color: red;
+    margin: 10px;
+}
