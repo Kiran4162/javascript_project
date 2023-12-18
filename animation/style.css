@@ -1,0 +1,15 @@
+body {
+    background: rgb(1, 133, 255);
+    background: linear-gradient(90deg, rgba(1, 133, 255, 1) 0%, rgba(65, 75, 227, 1) 35%, rgba(179, 176, 246, 0.4663573085846868) 100%);
+}
+h1{
+    margin-top: 50px !important;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder !important;
+}
+img{
+    height: 500px;
+    border-radius: 10px;
+}
