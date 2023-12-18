@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add & Delete</title>
+</head>
+<body>
+    <div id="maindiv">
+        <h1>This first element</h1>
+        <h1 id="secondh1">This second element</h1>
+    </div>
+</body>
+<script>
+    var maindiv = document.getElementById('maindiv')
+    // var newh1 = document.createElement("h1")
+    // var newh1text = document.createTextNode("This is third element")
+    // newh1.appendChild(newh1text)
+    // maindiv.appendChild(newh1)
+    var secondh1 = document.getElementById('secondh1')
+    maindiv.removeChild(secondh1)
+</script>
+</html>
